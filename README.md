@@ -1,6 +1,6 @@
 # EmotionDetector
 
-EmotionDetector je program koji prepoznava emocije korisnika koristeći njegovu kameru. Program prepoznaje ljutnju, sreću, iznenađenost, tugu i neutralnu emociju.
+EmotionDetector je program koji prepoznaje emocije korisnika koristeći kameru. Program prepoznaje ljutnju, sreću, iznenađenost, tugu i neutralnu emociju.
 Seminarski rad napravljen za kolegij Računarstvo usluga i analiza podataka.
 
 Rad napravili:
