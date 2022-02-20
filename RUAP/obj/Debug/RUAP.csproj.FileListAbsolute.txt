@@ -1,0 +1,11 @@
+C:\Users\Bruno\Desktop\ruap_seminar\RUAP\bin\Debug\RUAP.exe.config
+C:\Users\Bruno\Desktop\ruap_seminar\RUAP\bin\Debug\RUAP.exe
+C:\Users\Bruno\Desktop\ruap_seminar\RUAP\bin\Debug\RUAP.pdb
+C:\Users\Bruno\Desktop\ruap_seminar\RUAP\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Bruno\Desktop\ruap_seminar\RUAP\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Bruno\Desktop\ruap_seminar\RUAP\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Bruno\Desktop\ruap_seminar\RUAP\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Bruno\Desktop\ruap_seminar\RUAP\obj\Debug\RUAP.csproj.AssemblyReference.cache
+C:\Users\Bruno\Desktop\ruap_seminar\RUAP\obj\Debug\RUAP.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\Desktop\ruap_seminar\RUAP\obj\Debug\RUAP.exe
+C:\Users\Bruno\Desktop\ruap_seminar\RUAP\obj\Debug\RUAP.pdb
