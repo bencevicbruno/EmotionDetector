@@ -30,7 +30,7 @@ def calculate_landmark_distances(landmarks):
     
     for i in range(no_landmarks):
         for j in range(no_landmarks):
-            if i == j: continue
+            if i >= j: continue
             distances.append(distance(landmarks[i], landmarks[j]))
 
     max_distance = max(distances)

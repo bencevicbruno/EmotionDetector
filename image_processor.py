@@ -21,7 +21,7 @@ def calculate_landmark_distances(landmarks):
     
     for i in range(no_landmarks):
         for j in range(no_landmarks):
-            if i == j: continue
+            if i >= j: continue
             distances.append(distance(landmarks[i], landmarks[j]))
 
     max_distance = max(distances)
@@ -53,11 +53,13 @@ def write_distances(distances, emotions):
     
     for i in range(68):
         for j in range(68):
-            if i == j: continue
-            tags.append(f"d{i}{j}")
+            if i >= j: continue
+            firstDot = f"{i}" if i >= 10 else f"0{i}"
+            secondDot = f"{j}" if j >= 10 else f"0{j}"
+            tags.append(f"d{firstDot}{secondDot}")
     tags.append("emotion")
     
-    with open("distances.csv", "w") as file:
+    with open("distances_new.csv", "w") as file:
         column_names = ",".join(tags)
         file.write(column_names)
         file.write("\n")
@@ -76,6 +78,7 @@ def process_test_data():
     for (root, _, files) in os.walk('test_data', topdown=True):
         for file in files:
             path = f"{root}/{file}"
+            print(path)
             current_distances = process_image(path)
             distances.append(current_distances)
 
